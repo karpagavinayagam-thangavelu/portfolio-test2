@@ -1,4 +1,4 @@
-# Alex Styles Portfolio Website
+# Karpagavinayagam Styles Portfolio Website
 
 A modern, responsive portfolio website showcasing web development projects and skills.
 
