@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Styles - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Alex Styles</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Alex Styles</h1>
+            <p class="subtitle">Web Developer & Designer</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in creating beautiful, responsive websites. With 5+ years of experience, I specialize in modern web technologies and user-centered design.</p>
+                    <div class="skills">
+                        <span class="skill-tag tooltip" data-tooltip="Expert level">HTML5</span>
+                        <span class="skill-tag tooltip" data-tooltip="Expert level">CSS3</span>
+                        <span class="skill-tag tooltip" data-tooltip="Advanced level">JavaScript</span>
+                        <span class="skill-tag tooltip" data-tooltip="Advanced level">React</span>
+                        <span class="skill-tag tooltip" data-tooltip="Intermediate level">Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-modal="modal1">
+                    <div class="project-image">
+                        <div class="placeholder-img">E-Commerce Site</div>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured online shopping experience</p>
+                    <button class="view-details">View Details</button>
+                </div>
+                <div class="project-card" data-modal="modal2">
+                    <div class="project-image">
+                        <div class="placeholder-img">Portfolio Site</div>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Modern portfolio with smooth animations</p>
+                    <button class="view-details">View Details</button>
+                </div>
+                <div class="project-card" data-modal="modal3">
+                    <div class="project-image">
+                        <div class="placeholder-img">Dashboard</div>
+                    </div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Real-time data visualization tool</p>
+                    <button class="view-details">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alex Styles. All rights reserved.</p>
+    </footer>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>E-Commerce Platform</h3>
+            <p>Built a comprehensive e-commerce solution with shopping cart, payment integration, and user authentication. Technologies: React, Node.js, MongoDB.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Portfolio Website</h3>
+            <p>Designed and developed a modern portfolio with smooth animations and responsive design. Technologies: HTML5, CSS3, JavaScript.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Analytics Dashboard</h3>
+            <p>Created an interactive dashboard for real-time data visualization with charts and graphs. Technologies: React, D3.js, Express.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
